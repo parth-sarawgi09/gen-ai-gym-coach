@@ -18,7 +18,6 @@ DATABASE_URL = (
 
 engine = create_engine(DATABASE_URL, echo=False)
 
-# 👇 THIS WAS MISSING
 SessionLocal = sessionmaker(
     autocommit=False,
     autoflush=False,
